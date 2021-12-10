@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>603669269715-iafhc04jgf9972ln01k1421mep74sfle.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.603669269715-iafhc04jgf9972ln01k1421mep74sfle</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChSLdP4mbUikOHgxaKRZfGGF7qCLQ_wSc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>603669269715</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.ithinkdiff.votedemo1</string>
+	<key>PROJECT_ID</key>
+	<string>voting-app-88347</string>
+	<key>STORAGE_BUCKET</key>
+	<string>voting-app-88347.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:603669269715:ios:7e6b23e516246b7f205826</string>
+</dict>
+</plist>
