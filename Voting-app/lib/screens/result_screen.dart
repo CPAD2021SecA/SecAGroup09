@@ -45,9 +45,9 @@ class ResultScreen extends StatelessWidget {
         id: 'VoteResult',
         colorFn: (_, pos) {
           if (pos % 2 == 0) {
-            return charts.MaterialPalette.green.shadeDefault;
+            return charts.MaterialPalette.cyan.shadeDefault;
           }
-          return charts.MaterialPalette.blue.shadeDefault;
+          return charts.MaterialPalette.teal.shadeDefault;
         },
         domainFn: (VoteData vote, _) => vote.option,
         measureFn: (VoteData vote, _) => vote.total,

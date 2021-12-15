@@ -25,13 +25,13 @@ class VoteListWidget extends StatelessWidget {
                     child: Text(
                       vote.voteTitle,
                       style: TextStyle(
-                        fontSize: 18,
+                        fontSize:30,
                         color: activeVoteId == vote.voteId
                             ? Colors.white
                             : Colors.black,
                         fontWeight: activeVoteId == vote.voteId
-                            ? FontWeight.bold
-                            : FontWeight.normal,
+                            ? FontWeight.w900
+                            : FontWeight.w600,
                       ),
                     ),
                   ),
@@ -41,7 +41,7 @@ class VoteListWidget extends StatelessWidget {
                   },
                 ),
                 color: activeVoteId == vote.voteId
-                    ? Colors.red[200]
+                    ? Colors.teal
                     : alternateColor(),
               ),
           ],
@@ -54,10 +54,10 @@ class VoteListWidget extends StatelessWidget {
     int indexNum = start;
 
     Color getColor() {
-      Color color = Colors.teal[100];
+      Color color = Colors.blueGrey;
 
       if (indexNum % 2 == 0) {
-        color = Colors.blueAccent[100];
+        color = Colors.blueGrey;
       }
       ++indexNum;
       return color;

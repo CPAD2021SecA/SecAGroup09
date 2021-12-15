@@ -39,9 +39,10 @@ class _HomeScreeenState extends State<HomeScreeen> {
                   children: <Widget>[
                     if (voteState.voteList == null)
                       Container(
-                        color: Colors.lightBlue,
+                        color: Colors.teal,
                         child: Center(
                           child: Loading(
+                              color: Colors.teal,
                               indicator: BallPulseIndicator(), size: 100.0),
                         ),
                       ),
