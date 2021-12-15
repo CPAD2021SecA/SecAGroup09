@@ -5,43 +5,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import "package:provider/provider.dart";
 import "package:flutter_firebase_vote/state/vote.dart";
 
-List<Vote> getVoteList() {
-  // Mock Data
-  List<Vote> voteList = List<Vote>();
-
-  voteList.add(Vote(
-    voteId: Uuid().v4(),
-    voteTitle: 'Best Frameworks?',
-    options: [
-      {'Flutter': 70},
-      {'React Native': 10},
-      {'Xamarin': 1},
-    ],
-  ));
-
-  voteList.add(Vote(
-    voteId: Uuid().v4(),
-    voteTitle: 'Best Web Frontend?',
-    options: [
-      {'React': 80},
-      {'Angular': 40},
-      {'Vue': 20},
-    ],
-  ));
-
-  voteList.add(Vote(
-    voteId: Uuid().v4(),
-    voteTitle: 'Best Web Backend?',
-    options: [
-      {'Django': 50},
-      {'Laravel': 30},
-      {'Express.js': 50},
-    ],
-  ));
-
-  return voteList;
-}
-
 // firestore collection name
 const String kVotes = 'votes';
 const String kTitle = 'title';
