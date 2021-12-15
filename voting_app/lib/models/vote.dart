@@ -11,3 +11,10 @@ class Voter {
   String voteId;
   int markedVoteOption;
 }
+
+class User {
+  String uid;
+  String Name;
+  String Aadhar_No;
+  String Place;
+}
