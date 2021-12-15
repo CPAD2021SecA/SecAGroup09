@@ -25,14 +25,16 @@ class VoteWidget extends StatelessWidget {
         children: <Widget>[
           Card(
             child: Container(
+              color:Colors.blueGrey,
+              alignment: Alignment.center,
               width: MediaQuery.of(context).size.width,
               padding: EdgeInsets.all(20),
               child: Text(
                 activeVote.voteTitle,
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
-                  color: Colors.teal,
+                  color: Colors.black,
                 ),
               ),
             ),
@@ -50,20 +52,20 @@ class VoteWidget extends StatelessWidget {
                       Container(
                         constraints: BoxConstraints(minHeight: 60),
                         width: 8,
-                        color: Colors.green,
+                        color: Colors.teal,
                       ),
                       Expanded(
                         child: Container(
-                          padding: EdgeInsets.only(left: 10, right: 5),
-                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 5, right: 5),
+                          alignment: Alignment.center,
                           child: Text(
                             option,
                             maxLines: 5,
-                            style: TextStyle(fontSize: 22),
+                            style: TextStyle(fontSize: 27,fontWeight: FontWeight.bold),
                           ),
                           color: voteState.selectedOptionInActiveVote == option
-                              ? Colors.green
-                              : Colors.white,
+                              ? Colors.teal
+                              : Colors.black12,
                         ),
                       ),
                     ],
