@@ -16,6 +16,5 @@ class user{
   String uid;
   String Name;
   String Gender;
-  String Plane;
   String Place;
 }
