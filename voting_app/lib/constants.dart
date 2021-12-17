@@ -1,1 +1,1 @@
-const kAppName = 'Vote App';
+const kAppName = 'VoteNow';
